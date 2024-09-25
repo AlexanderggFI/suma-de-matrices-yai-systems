@@ -5,7 +5,7 @@ int main(){
   int a[TAM][TAM], b[TAM][TAM], c[TAM][TAM];
   int m, n, p, q;
   int i, j;
-
+printf("Hola");
   do{
     printf("Ingresa las dimensiones de la primer matriz\n");
     scanf("%d %d", &m, &n);
