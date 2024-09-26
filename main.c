@@ -22,21 +22,21 @@ int main(){
 
   printf("Ingresa los elementos de la segunda matriz:\n");
   //TODO(1): Colocar el código para leer la segunda matriz
-    for(i =0; i <m; i++){
-      for(j=0; j <n ; j++){
+  for(i =0; i <m; i++){
+    for(j=0; j <n ; j++){
       scanf("%d", &b[i][j]," ");
       }
     }
   //TODO(2): Colocar el código para sumar las matrices
-    for(i =0; i <m; i++){
-      for(j=0; j <n ; j++){
+  for(i =0; i <m; i++){
+    for(j=0; j <n ; j++){
       c[i][j] = a[i][j] + b[i][j];
       }
   }
   printf("La matriz resultante de la suma es:\n");
   //TODO(3): Colocar el código para mostrar la matriz C
-    for(i =0; i <m; i++){
-      for(j=0; j <n ; j++){
+  for(i =0; i <m; i++){
+    for(j=0; j <n ; j++){
       printf("%d", c[i][j]," ");
       }
     }
